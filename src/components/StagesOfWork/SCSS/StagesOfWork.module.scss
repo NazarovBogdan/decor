@@ -1,0 +1,184 @@
+.content{
+    padding: 30px;
+    background-color: #867D74;
+    display: flex;
+    flex-direction: column;
+    
+    .title{
+        font-family: EB Garamond;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 45px;
+        line-height: 34px;
+        color: #FEFEFE;
+        @media screen and (max-width:360px){
+            font-size: 37px;
+        }
+        @media screen and (min-width: 768px){
+            display: block;
+            font-family: EB Garamond;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 74px;
+            line-height: 63px;
+            color: #FEFEFE;
+            width: 100%;
+            margin: 0 auto;
+            padding: 317px 50px 61px 50px;
+        }
+        @media screen and (min-width: 1440px){
+            width: 1440px;
+        }
+    }
+
+    .text_fon{
+        position: absolute;
+        z-index: 0;
+        font-family: EB Garamond;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 100px;
+        line-height: 110px;
+        color: #8F867D;
+        transform: rotate(90deg);
+        margin-top: 200px;
+        margin-left: 189px;
+        overflow: hidden;
+        @media screen and (min-width: 768px){
+            font-size: 450px;
+            line-height: 200px;
+            margin: 418px  0 0 310px;
+        }
+        @media screen and (max-width: 1100px){
+            font-size: 355px;
+            line-height: 153px;
+            margin: 411px 0 0 157px;
+        }
+        @media screen and (max-width: 768px){
+            font-size: 279px;
+            line-height: 109px;
+            margin: 298px 0 0 73px;
+        }
+        @media screen and (max-width: 550px){
+            font-size: 251px;
+            line-height: 53px;
+            margin: 306px 0 0 23px;
+        }
+        @media screen and (max-width: 450px){
+            font-size: 105px;
+            line-height: 120px;
+            margin: 265px 0 0 0px;
+        
+        }
+
+    }
+
+    .details{
+        margin-top: 30px;
+        align-self: center;
+        width: 236px;
+        border: 0;
+        display: flex;
+        justify-content: space-between;
+        padding: 6px 13px;
+        background: #8F867D;
+        border-radius: 20px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 20px;
+        color: #FEFEFE;
+    }
+
+    .stage{
+        padding-top: 20px;
+        display: flex;
+        @media screen and (min-width: 768px){
+            width: 100%;
+            padding: 50px 50px 0 50px;
+            margin: 0 auto;
+            padding-top: 50px;
+        }
+        @media screen and (min-width: 1440px){
+            width: 1440px;
+        }
+        .stage_band_number{
+            display: flex;
+            flex-direction: column;
+
+            .stage_band{
+                background-color: #FEFEFE;
+                margin-left: 8px;
+                margin-top: 5px;
+                flex: 1 0 auto;
+                width: 1px;
+                @media screen and (min-width: 768px){
+                    width: 2px;
+                    margin-left: 18px;
+                }
+            }
+    
+            .stage_list{
+                transform: rotate(270deg);
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 20px;
+                display: flex;
+                align-items: center;
+                color: #FEFEFE;
+                @media screen and (min-width: 768px){
+                    font-size: 28px;
+                    line-height: 43px;
+                    margin-right: 43px;
+                    margin-top: -6px;
+                }
+            }
+        }
+
+        .stage_text{
+            padding-left: 16px;
+            @media screen and (min-width: 768px){
+                display: flex;
+                justify-content: space-between;
+                width: 100%;
+                padding-left: 0;
+            }
+            .stage_title{
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 20px;
+                align-items: center;
+                color: #FEFEFE;
+                width: 200px;
+                @media screen and (min-width: 768px){
+                    font-size: 28px;
+                    line-height: 28px;
+                    width: 666px;
+                }
+            }
+
+            .stage_desc{
+                padding-top: 12px;
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 20px;
+                color: #FEFEFE;
+                width: 250px;
+                @media screen and (min-width: 768px){
+                    font-size: 28px;
+                    line-height: 43px;
+                    width: 685px;
+                    padding-top: 0;
+                }
+            }
+        }
+        
+    }
+}

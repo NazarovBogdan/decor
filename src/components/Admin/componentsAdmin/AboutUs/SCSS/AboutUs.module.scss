@@ -1,0 +1,239 @@
+.about_us{
+    background-color: #867D74;
+    width: 100%;
+    margin-top: 190px;
+    @media screen and (max-width: 768px){
+        margin-top: 140px;
+    }
+    @media screen and (max-width: 420px){
+        margin-top: 90px;
+    }
+    @media screen and (max-width: 411px){
+        margin-top: 80px;
+    }
+    @media screen and (max-width: 350px){
+        margin-top: 50px;
+    }
+    .content{
+        width: 1440px;
+        margin: 0 auto;
+        display: flex;
+        padding: 0;
+        padding-top: 200px;
+        @media screen and (max-width: 1500px){
+            width: 1200px;
+            padding: 150px 10px;
+        }
+        @media screen and (max-width: 1300px){
+            width: 968px;
+            padding: 150px 10px;
+        }
+        @media screen and (max-width: 1100px){
+            width: 100%;
+            padding: 150px 50px 90px 50px;
+            margin: 0;
+        }
+        @media screen and (max-width: 768px){
+            width: 100%;
+            padding: 100px 20px 90px 20px;
+            margin: 0;
+        }
+        @media screen and (max-width: 350px){
+            padding: 50px 20px 90px 20px;
+        }
+
+
+        .image_desctop{
+            width: 690px;
+            height: 700px;
+            @media screen and (max-width: 1500px){
+                width: 516px;
+                height: 495px;
+            }
+            @media screen and (max-width: 1100px){
+                width: 440px;
+                height: 414px;
+            }
+            @media screen and (max-width: 968px){
+                display: none;
+            }
+          
+        }
+        .text_fon{
+            font-size: 330px;
+            line-height: 200px;
+            color: #8F867D;
+            position: absolute;
+            z-index: -1;
+            margin-left: 23px;
+            margin-top: 100px;
+            text-align: end;
+            @media screen and (max-width: 1700px){
+                font-size: 244px;
+                line-height: 156px;
+            }
+            @media screen and (max-width: 1500px){
+                font-size: 178px;
+                line-height: 122px;
+            }
+            @media screen and (max-width: 1100px){
+                font-size: 156px;
+                line-height: 96px;
+                margin-top: 0;
+                text-align: start;
+            }
+            @media screen and (max-width: 1100px){
+                display: none;
+            }
+        }
+        .title{
+            padding-top: 125px;
+            padding-left: 58px;
+            @media screen and (max-width: 1300px){
+                padding-top: 50px;
+            }
+            @media screen and (max-width: 1100px){
+                padding-left: 41px;
+                padding-top: 39px;
+            }
+            .title_text{
+                font-family: EB Garamond;
+                font-style: normal;
+                font-weight: 800;
+                color: #FEFEFE;
+                text-decoration: none;
+                font-size: 75px;
+                line-height: 70px;
+                @media screen and (max-width: 1500px){
+                    font-size: 75px;
+                    line-height: 70px;
+                }
+                @media screen and (max-width: 1100px){
+                    font-size: 54px;
+                    line-height: 0px;
+                }
+                @media screen and (max-width: 768px){
+                    font-size: 45px;
+                    line-height: 34px;
+                }
+                
+            }
+        }
+
+        .desc{
+            padding-left: 61px;
+            padding-top: 91px;
+            @media screen and (max-width: 1100px){
+                padding-left: 41px;
+                padding-top: 39px;
+            }
+            .desc_text{
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 28px;
+                line-height: 43px;
+                color: #FEFEFE;
+                @media screen and (max-width: 1100px){
+                    font-size: 26px;
+                    line-height: 36px;
+                }
+
+            }
+            
+        }
+    }
+
+    .image{
+        display: none;
+        @media screen and (max-width: 968px){
+            display: block;
+            width: 100%;
+        }
+    }
+
+    .content_bottom{
+        background-color: #867D74;
+        width: 1440px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 190px;
+        @media screen and (max-width: 1500px){
+            padding: 0 10px;
+            width: 1200px;
+        }
+        @media screen and (max-width: 1300px){
+            width: 100%;
+            padding: 10px 50px 10px 50px;
+        }
+        @media screen and (max-width: 968px){
+            padding: 10px 20px 10px 20px;
+            flex-direction: column;
+        }
+
+        .list{
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            align-self: center;
+            padding-top: 35px;
+            @media screen and (max-width: 968px){
+                flex-direction: row;
+                justify-content: space-between;
+                align-self: auto;
+            }
+            .title{
+                font-family: Prata;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 240px;
+                line-height: 200px;
+                align-self: center;
+                color: #C3B9B0;
+                opacity: 0.9;
+                @media screen and (max-width: 1300px){
+                    font-size: 182px;
+                    line-height: 147px;
+                }
+                @media screen and (max-width: 968px){
+                    font-size: 136px;
+                    line-height: 93px;
+                    font-weight: bold;
+                }
+                @media screen and (max-width: 550px){
+                    font-size: 100px;
+                    line-height: 79px;
+                }
+
+            }
+
+            .desc{
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: bold;
+                align-items: center;
+                color: #FEFEFE;
+                align-self: center;
+                font-size: 28px;
+                line-height: 43px;
+                width: 224px;
+                text-align: center;
+                padding-top: 20px;
+                @media screen and (max-width: 1300px){
+                    font-size: 28px;
+                    line-height: 43px;
+                }
+                @media screen and (max-width: 968px){
+                    font-size: 23px;
+                    line-height: 34px;
+                    width: 181px;
+                    text-align: start;
+                }
+
+            }
+        }
+    }
+
+}
+
